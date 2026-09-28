@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/boltsemver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bolt URLs and semver query parts with stable normalization.",
+  "bin": {
+    "boltsemver": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/boltsemver.git"
+  },
+  "homepage": "https://theworker02.github.io/boltsemver/",
+  "keywords": [
+    "bolt",
+    "semver",
+    "url",
+    "cli",
+    "toolkit"
+  ]
+}
